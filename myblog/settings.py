@@ -124,10 +124,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'kennedy.babu@student.moringaschool.com'
 EMAIL_HOST_PASSWORD = 'Aurevoir10'
 EMAIL_PORT = 587
-
+EMAIL_USE_TLS = True
